@@ -92,6 +92,10 @@ ja:
         title: "%{model_label} '%{object_label}'の履歴"
         menu: "履歴"
         breadcrumb: "履歴"
+      import:
+        title: "%{model_label}をインポート"
+        menu: "インポート"
+        breadcrumb: "インポート"
     form:
       cancel: "キャンセル"
       basic_info: "基本情報"
