@@ -15,6 +15,8 @@ gem 'rails_admin_import'
 gem 'thin'
 gem 'pry-rails'
 
+gem 'paper_trail', '~> 2.7'
+
 group :test, :development do
   gem "rspec-rails"
   gem "capybara"
