@@ -5,11 +5,19 @@ gem 'rails', '3.2.17'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'haml-rails'
+
 gem 'sqlite3'
 
 gem 'rails_admin', '~> 0.4.9'
 gem 'rails_admin_import'
 
+gem 'thin'
+
+group :test, :development do
+  gem "rspec-rails"
+  gem "capybara"
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
