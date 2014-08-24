@@ -13,6 +13,7 @@ gem 'rails_admin', '~> 0.4.9'
 gem 'rails_admin_import'
 
 gem 'thin'
+gem 'pry-rails'
 
 group :test, :development do
   gem "rspec-rails"
